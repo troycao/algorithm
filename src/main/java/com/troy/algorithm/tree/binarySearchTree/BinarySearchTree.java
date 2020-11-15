@@ -60,9 +60,9 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
         afterAdd(newNode);
     }
 
-    public void afterAdd(Node<E> node){
+    protected void afterAdd(Node<E> node){}
 
-    }
+    protected void afterRemove(Node<E> node){}
 
     /**
      * 移除节点
@@ -106,9 +106,13 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
             } else if (node.parent.right == node) {
                 node.parent.right = replacement;
             }
+            // 删除节点，再平衡
+            afterAdd(node);
         } else if (node.parent == null){
             // node是叶子节点,并且是根节点
             root = null;
+            // 删除节点，再平衡
+            afterAdd(node);
         } else {
             // node是叶子节点，直接删除
             if (node == node.parent.left) {
@@ -116,6 +120,8 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
             } else if (node == node.parent.right){
                 node.parent.right = null;
             }
+            // 删除节点，再平衡
+            afterAdd(node);
         }
     }
 
