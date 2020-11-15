@@ -40,6 +40,8 @@ public class Test {
 //        System.out.println(binarySearchTree.heightByLevelTraversal());
 //        System.out.println(binarySearchTree.isComplate());
 
+        System.out.println(binarySearchTree.contains(4));
+
         BinaryTrees.println(binarySearchTree);
     }
 }
