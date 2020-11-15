@@ -1,7 +1,7 @@
 package com.troy.algorithm;
 
 import com.troy.algorithm.printer.BinaryTrees;
-import com.troy.algorithm.tree.binarySearchTree.BinarySearchTree;
+import com.troy.algorithm.tree.avlTree.AVLTree;
 
 /**
  * @author caoqiang
@@ -12,36 +12,17 @@ public class Test {
 
     public static void main(String[] args) {
         Integer data[] = new Integer[]{
-                7,4,2,1,3,5,9,8,11,10,12
+                35, 23, 95, 45, 6, 15, 92, 61, 87, 24, 16
         };
 
-        BinarySearchTree<Integer> binarySearchTree = new BinarySearchTree<Integer>();
+        AVLTree<Integer> avlTree = new AVLTree<Integer>();
         for (int i = 0; i < data.length; i++) {
-            binarySearchTree.add(data[i]);
+            avlTree.add(data[i]);
         }
 
-//        binarySearchTree.preorderTraversal();
-//        binarySearchTree.inorderTraversal();
-//        binarySearchTree.postOrderTraversal();
+        BinaryTrees.println(avlTree);
 
-        /*binarySearchTree.levelOrderTraversal(new BinarySearchTree.Visitor<Integer>() {
-            @Override
-            public boolean visit(Integer element) {
-
-                *//*if (element == 2){
-                    return true;
-                }*//*
-                System.out.print("_" + element +"_ ");
-                return false
-            }
-        });*/
-
-//        System.out.println(binarySearchTree.height());
-//        System.out.println(binarySearchTree.heightByLevelTraversal());
-//        System.out.println(binarySearchTree.isComplate());
-
-        System.out.println(binarySearchTree.contains(4));
-
-        BinaryTrees.println(binarySearchTree);
+        avlTree.add(30);
+        BinaryTrees.println(avlTree);
     }
 }

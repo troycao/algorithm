@@ -266,6 +266,10 @@ public class BinaryTree<E> implements BinaryTreeInfo {
         return node.parent;
     }
 
+    protected Node<E> createNode(E element, Node<E> parent){
+        return new Node<E>(element, parent);
+    }
+
     public void elementNotNullCheck(E element){
         if (null == element) {
             throw new IllegalArgumentException("element must be not null");
@@ -309,6 +313,14 @@ public class BinaryTree<E> implements BinaryTreeInfo {
 
         public boolean hasTowChildren(){
             return left != null && right != null;
+        }
+
+        public boolean isLeftChild(){
+            return parent != null && this == parent.left;
+        }
+
+        public boolean isRightChild(){
+            return parent != null && this == parent.right;
         }
     }
 

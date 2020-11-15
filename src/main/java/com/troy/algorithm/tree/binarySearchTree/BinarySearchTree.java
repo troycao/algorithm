@@ -27,8 +27,9 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
 
         // 添加第一个节点
         if (null == root){
-            root = new Node<E>(element, null);
+            root = createNode(element, null);
             size ++;
+            afterAdd(root);
             return;
         }
 
@@ -49,13 +50,18 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
             }
         }
 
-        Node<E> newNode = new Node<E>(element, parent);
+        Node<E> newNode = createNode(element, parent);
         if (compare > 0) {
             parent.right = newNode;
         } else {
             parent.left = newNode;
         }
         size++;
+        afterAdd(newNode);
+    }
+
+    public void afterAdd(Node<E> node){
+
     }
 
     /**
