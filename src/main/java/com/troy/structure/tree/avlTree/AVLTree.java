@@ -1,6 +1,6 @@
-package com.troy.algorithm.tree.avlTree;
+package com.troy.structure.tree.avlTree;
 
-import com.troy.algorithm.tree.binarySearchTree.BinarySearchTree;
+import com.troy.structure.tree.binarySearchTree.BinarySearchTree;
 
 
 /**

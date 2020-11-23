@@ -1,4 +1,4 @@
-package com.troy.algorithm.printer;
+package com.troy.tools.printer;
 
 public class Strings {
 	public static String repeat(String string, int count) {

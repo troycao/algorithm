@@ -1,7 +1,7 @@
-package com.troy.algorithm;
+package com.troy.structure;
 
-import com.troy.algorithm.printer.BinaryTrees;
-import com.troy.algorithm.tree.avlTree.AVLTree;
+import com.troy.tools.printer.BinaryTrees;
+import com.troy.structure.tree.avlTree.AVLTree;
 
 /**
  * @author caoqiang

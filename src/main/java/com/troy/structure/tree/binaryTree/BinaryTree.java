@@ -1,6 +1,6 @@
-package com.troy.algorithm.tree.binaryTree;
+package com.troy.structure.tree.binaryTree;
 
-import com.troy.algorithm.printer.BinaryTreeInfo;
+import com.troy.tools.printer.BinaryTreeInfo;
 
 import java.util.LinkedList;
 import java.util.Queue;

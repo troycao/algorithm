@@ -1,4 +1,4 @@
-package com.troy.algorithm.printer;
+package com.troy.tools.printer;
 
 import java.util.ArrayList;
 import java.util.Collection;

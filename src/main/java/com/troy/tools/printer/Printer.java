@@ -1,4 +1,4 @@
-package com.troy.algorithm.printer;
+package com.troy.tools.printer;
 
 public abstract class Printer {	
 	/**

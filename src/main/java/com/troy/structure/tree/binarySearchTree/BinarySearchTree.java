@@ -1,6 +1,6 @@
-package com.troy.algorithm.tree.binarySearchTree;
+package com.troy.structure.tree.binarySearchTree;
 
-import com.troy.algorithm.tree.binaryTree.BinaryTree;
+import com.troy.structure.tree.binaryTree.BinaryTree;
 
 import java.util.Comparator;
 
