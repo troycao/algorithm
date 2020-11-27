@@ -1,5 +1,6 @@
-package com.troy.structure;
+package com.troy.test;
 
+import com.troy.structure.list.array.ArrayList;
 import com.troy.tools.printer.BinaryTrees;
 import com.troy.structure.tree.avlTree.AVLTree;
 
@@ -11,7 +12,7 @@ import com.troy.structure.tree.avlTree.AVLTree;
 public class Test {
 
     public static void main(String[] args) {
-        Integer data[] = new Integer[]{
+        /*Integer data[] = new Integer[]{
                 35, 23, 95, 45, 6, 15, 92, 61, 87, 24, 16
         };
 
@@ -23,6 +24,21 @@ public class Test {
         BinaryTrees.println(avlTree);
 
         avlTree.add(30);
-        BinaryTrees.println(avlTree);
+        BinaryTrees.println(avlTree);*/
+
+        ArrayList list = new ArrayList();
+
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+        list.add(6);
+        list.add(7);
+        System.out.println(list);
+
+        list.remove(4);
+        System.out.println(list);
+
     }
 }
