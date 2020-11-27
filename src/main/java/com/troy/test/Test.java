@@ -1,6 +1,8 @@
 package com.troy.test;
 
+import com.troy.structure.list.List;
 import com.troy.structure.list.array.ArrayList;
+import com.troy.structure.list.link.single.SingleLinkedList;
 import com.troy.tools.printer.BinaryTrees;
 import com.troy.structure.tree.avlTree.AVLTree;
 
@@ -26,7 +28,7 @@ public class Test {
         avlTree.add(30);
         BinaryTrees.println(avlTree);*/
 
-        ArrayList list = new ArrayList();
+        List list = new SingleLinkedList();
 
         list.add(1);
         list.add(2);
