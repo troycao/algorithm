@@ -1,10 +1,7 @@
 package com.troy.test;
 
-import com.troy.structure.list.List;
-import com.troy.structure.list.array.ArrayList;
-import com.troy.structure.list.link.single.SingleLinkedList;
-import com.troy.tools.printer.BinaryTrees;
-import com.troy.structure.tree.avlTree.AVLTree;
+import com.troy.structure.linear.List;
+import com.troy.structure.linear.link.single.SingleLinkedList;
 
 /**
  * @author caoqiang

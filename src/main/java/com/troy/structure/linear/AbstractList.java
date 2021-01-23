@@ -1,4 +1,4 @@
-package com.troy.structure.list;
+package com.troy.structure.linear;
 
 /**
  * @author Troy

@@ -1,7 +1,7 @@
 package com.troy.structure.stack;
 
-import com.troy.structure.list.List;
-import com.troy.structure.list.array.ArrayList;
+import com.troy.structure.linear.List;
+import com.troy.structure.linear.array.ArrayList;
 
 public class Stack<E> {
     private List<E> list = new ArrayList<>();
