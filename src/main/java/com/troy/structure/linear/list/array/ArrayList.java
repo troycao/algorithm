@@ -1,13 +1,13 @@
-package com.troy.structure.linear.array;
+package com.troy.structure.linear.list.array;
 
-import com.troy.structure.linear.AbstractList;
+import com.troy.structure.linear.list.AbstractList;
 
 /**
  * @author Troy
- * @date 2020-11-27 14:17
- * @desc: 动态数组（包含缩容操作）
+ * @date 2020-11-27 13:29
+ * @desc: 动态数组
  */
-public class ArrayListWithReduce<E> extends AbstractList<E> {
+public class ArrayList<E> extends AbstractList<E> {
 
     /**
      * 所有元素
@@ -19,12 +19,12 @@ public class ArrayListWithReduce<E> extends AbstractList<E> {
     /**
      * @param capaticy 数组初始化大小
      */
-    public ArrayListWithReduce(int capaticy){
+    public ArrayList(int capaticy){
         capaticy = (capaticy < DEFAULT_CAPACITY)? DEFAULT_CAPACITY: capaticy;
         elements = (E[])new Object[capaticy];
     }
 
-    public ArrayListWithReduce(){
+    public ArrayList(){
         this(DEFAULT_CAPACITY);
     }
 
@@ -83,24 +83,7 @@ public class ArrayListWithReduce<E> extends AbstractList<E> {
         }
         elements[size] = null;
         size--;
-        trim();
         return old;
-    }
-
-    /**
-     * 缩容
-     */
-    private void trim() {
-        int oldCapacity = elements.length;
-        int newCapacity = oldCapacity >> 1;
-        if (size > (newCapacity) || oldCapacity <=DEFAULT_CAPACITY) return;
-
-        E[] newElements = (E[]) new Object[newCapacity];
-        for (int i = 0; i < size; i++) {
-            newElements[i] = elements[i];
-        }
-        elements = newElements;
-        System.out.println("数组:" + oldCapacity + "缩容为" + newCapacity);
     }
 
     @Override

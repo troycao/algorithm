@@ -1,7 +1,7 @@
 package com.troy.structure.linear.queue;
 
-import com.troy.structure.linear.List;
-import com.troy.structure.linear.array.ArrayList;
+import com.troy.structure.linear.list.List;
+import com.troy.structure.linear.list.array.ArrayList;
 
 /**
  * @Author troy

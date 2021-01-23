@@ -1,6 +1,6 @@
-package com.troy.structure.linear.link.single;
+package com.troy.structure.linear.list.link.single;
 
-import com.troy.structure.linear.AbstractList;
+import com.troy.structure.linear.list.AbstractList;
 
 /**
  * @author Troy

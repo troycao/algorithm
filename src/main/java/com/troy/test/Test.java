@@ -1,7 +1,7 @@
 package com.troy.test;
 
-import com.troy.structure.linear.List;
-import com.troy.structure.linear.link.single.SingleLinkedList;
+import com.troy.structure.linear.list.List;
+import com.troy.structure.linear.list.link.single.SingleLinkedList;
 
 /**
  * @author caoqiang
