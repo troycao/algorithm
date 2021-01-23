@@ -1,4 +1,4 @@
-package com.troy.structure.stack;
+package com.troy.structure.linear.stack;
 
 import com.troy.structure.linear.List;
 import com.troy.structure.linear.array.ArrayList;

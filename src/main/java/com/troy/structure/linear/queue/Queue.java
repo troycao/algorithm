@@ -1,4 +1,4 @@
-package com.troy.structure.queue;
+package com.troy.structure.linear.queue;
 
 import com.troy.structure.linear.List;
 import com.troy.structure.linear.array.ArrayList;
