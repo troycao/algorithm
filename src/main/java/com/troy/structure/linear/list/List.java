@@ -3,6 +3,7 @@ package com.troy.structure.linear.list;
 public interface List<E> {
 
     static final int ELEMENT_NOT_FOUND = -1;
+
     /**
      * 清除所有元素
      */
