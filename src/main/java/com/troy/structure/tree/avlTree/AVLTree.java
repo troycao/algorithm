@@ -6,7 +6,7 @@ import com.troy.structure.tree.binarySearchTree.BinarySearchTree;
 /**
  * @author caoqiang
  * @date 2020-11-15 13:06
- * @desc
+ * @desc:平衡二叉树
  */
 public class AVLTree<E> extends BinarySearchTree<E> {
 

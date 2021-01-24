@@ -7,7 +7,7 @@ import java.util.Comparator;
 /**
  * @author caoqiang
  * @date 2020-11-12 13:53
- * @desc
+ * @desc 二叉搜索树
  */
 public class BinarySearchTree<E> extends BinaryTree<E> {
 
