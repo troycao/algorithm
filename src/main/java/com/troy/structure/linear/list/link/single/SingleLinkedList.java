@@ -5,7 +5,7 @@ import com.troy.structure.linear.list.AbstractList;
 /**
  * @author Troy
  * @date 2020-11-27 14:29
- * @desc:
+ * @desc: 单向链表
  */
 public class SingleLinkedList<E> extends AbstractList<E> {
 
