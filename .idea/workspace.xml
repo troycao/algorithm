@@ -13,13 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47be5ad2-bfef-457d-bb18-d4de4bd7b88d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/troy/algorithm/sort/MainSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/troy/algorithm/sort/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/troy/tools/sort/Asserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/troy/tools/sort/Integers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/troy/tools/sort/Times.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/troy/algorithm/sort/bubble/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/troy/algorithm/sort/bubble/BubbleSort.java" afterDir="false" />
+    <list default="true" id="47be5ad2-bfef-457d-bb18-d4de4bd7b88d" name="Default Changelist" comment="修改树相关注释">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/troy/structure/tree/balance/BalanceBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/troy/structure/tree/balance/redBlackTree/RedBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/troy/structure/tree/avlTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/troy/structure/tree/balance/avlTree/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1j8CooEODcQRJpiIPkYAn3QURMt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +50,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -128,8 +128,58 @@
       <option name="presentableId" value="Default" />
       <updated>1603176508632</updated>
       <workItem from="1603176511997" duration="83000" />
-      <workItem from="1609564180225" duration="9585000" />
+      <workItem from="1609564180225" duration="29404000" />
     </task>
+    <task id="LOCAL-00001" summary="数据结构 stack queue deque实现">
+      <created>1610787252021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610787252021</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改包名称">
+      <created>1611383034596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611383034596</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改包名结构">
+      <created>1611383307799</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611383307799</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改包名结构">
+      <created>1611383497355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611383497355</updated>
+    </task>
+    <task id="LOCAL-00005" summary="list代码完善">
+      <created>1611474759650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611474759650</updated>
+    </task>
+    <task id="LOCAL-00006" summary="双向循环链表代码更新">
+      <created>1611476195099</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611476195099</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改树相关注释">
+      <created>1611476916891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611476916891</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,5 +196,18 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据结构 stack queue deque实现" />
+    <MESSAGE value="修改包名称" />
+    <MESSAGE value="修改包名结构" />
+    <MESSAGE value="list代码完善" />
+    <MESSAGE value="双向循环链表代码更新" />
+    <MESSAGE value="修改树相关注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改树相关注释" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

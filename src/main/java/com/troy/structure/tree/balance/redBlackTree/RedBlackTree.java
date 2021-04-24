@@ -1,4 +1,4 @@
-package com.troy.structure.tree.redBlackTree;
+package com.troy.structure.tree.balance.redBlackTree;
 
 import com.troy.structure.tree.binarySearchTree.BinarySearchTree;
 
